@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+header{
+    height: 19.40vh;
+    background-color: #FF69B4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        height: 16vh;
+    }
+    h1{
+        color:  #E4EEF1;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    ul{
+        font-size: 16px;
+        border: solid 2px;
+        width: 30vw;
+        color:  #E4EEF1;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.firstSection{
+    border: solid 2px;
+    height: 62vh;
+    background-color: #FFD9EC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    p{
+        border: solid 2px;
+        width: 48vw;
+        font-size: 25px;
+    }
+    img{
+        width: 26vw;
+    }
+}
+.secondSection{
+    height: 43vh;
+    background-color: #FF69B4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    img{
+        width: 32vw;
+    }
+    p{
+        color: #E4EEF1;
+        border: solid 2px;
+        width: 55vw;
+        font-size: 25px;
+    }
+}
+.thirdSection{
+    border: solid 2px;
+    height: 70vh;
+    background-color: #FFD9EC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        width: 19.20vw;
+    }
+
+}
+footer{
+    height: 23.50vh;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    ul{
+        list-style: none;
+        display: flex;
+        width: 15vw;
+        justify-content: space-around;
+        border: solid 2px;
+        align-items: center;
+    }
+    p{
+        text-align: center;
+        color: #E4EEF1;
+    }
+}
