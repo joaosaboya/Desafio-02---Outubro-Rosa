@@ -4,28 +4,33 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+  color: #E4EEF1;
+  font-size: 16px;
 }
 
 header {
   height: 19.4vh;
   background-color: #FF69B4;
+  color: #E4EEF1;
+  font-size: 1.75em;
+  font-weight: 400;
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   align-items: center;
+  padding-left: 5vw;
 }
 header img {
   height: 16vh;
 }
-header h1 {
-  color: #E4EEF1;
-  font-size: 16px;
-  font-weight: 400;
+header div {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 header ul {
-  font-size: 16px;
-  border: solid 2px;
   width: 30vw;
-  color: #E4EEF1;
   list-style: none;
   display: flex;
   align-items: center;
@@ -33,7 +38,6 @@ header ul {
 }
 
 .firstSection {
-  border: solid 2px;
   height: 62vh;
   background-color: #FFD9EC;
   display: flex;
@@ -41,9 +45,9 @@ header ul {
   align-items: center;
 }
 .firstSection p {
-  border: solid 2px;
+  color: #000000;
   width: 48vw;
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 .firstSection img {
   width: 26vw;
@@ -60,14 +64,11 @@ header ul {
   width: 32vw;
 }
 .secondSection p {
-  color: #E4EEF1;
-  border: solid 2px;
   width: 55vw;
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .thirdSection {
-  border: solid 2px;
   height: 70vh;
   background-color: #FFD9EC;
   display: flex;
@@ -88,12 +89,12 @@ footer {
 footer ul {
   list-style: none;
   display: flex;
-  width: 15vw;
-  justify-content: space-around;
-  border: solid 2px;
+  width: 20vw;
+  justify-content: space-between;
   align-items: center;
 }
 footer p {
+  padding-right: 10vw;
   text-align: center;
   color: #E4EEF1;
 }/*# sourceMappingURL=style.css.map */
